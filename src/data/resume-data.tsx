@@ -20,259 +20,154 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Michael Bishai",
+  initials: "MB",
+  location: "Los Angeles, California, PST",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Self-Starting Engineer with a passion for group collaboration, and hands-on experience in software development, 3D printing, and hardware troubleshooting.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "Driven Interdisciplinary Engineer with a passion for making modern technology more accessible and user-friendly. Holding a degree in Computer Science, my educational journey didn't stop there; I've delved deep into Mechanical Engineering, applying its principles to product development. My expertise doesn't end with software and mechanics; I bridge these disciplines with Electrical Engineering, allowing for the creation of comprehensive products that seamlessly integrate software, electrical components, and hardware. This multidisciplinary approach enables me to innovate and refine technologies, ensuring they meet the needs of users in an intuitive and efficient manner.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/52522568?s=400&u=043c5416d9ebbbd5a769d317a4b97e731a0a6af3&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "monitorthat@gmail.com",
+    tel: "+12137137747",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/cdnmonitor",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/michael-bishai-4b1a44195/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/monitorthat",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Chapman University",
+      degree: "Bachelor's Degree in Computer Science & Minor in Psychology",
+      start: "2021",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Chapman University",
+      link: "https://chapman.edu",
+      badges: ["On Site"],
+      title: "Makerspace Technician",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2024",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Led the integration and repair of approximately 50 Prusa MK3 printers into the school's network via Raspberry Pi configuration and authored guides for overcoming eduroam connection challenges; developed a unique Python workshop utilizing a Boston Dynamics robot, enhancing the makerspace's educational offerings. Initiated the restoration of Prusa Multi Material Units, designed and fabricated a filament storage solution, and assumed key responsibility in liaising with Boston Dynamics for hardware issues, demonstrating a blend of technical prowess in software development, 3D printing, and hardware troubleshooting.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      company: "Chong Hing Jewelers",
+      link: "https://chonghing.com",
+      badges: ["Hybrid", "Remote"],
+      title: "Software Engineer",
+      logo: "YourLogoVariable", // Replace YourLogoVariable with the actual logo variable name
+      start: "2018",
       end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      description: "Spearheaded frontend development for an e-commerce platform and backend inventory system enhancement, significantly improving online sales and operational efficiency. Actively collaborated with luxury brands such as Omega, Patek Philippe, Panerai, Chanel, and Gucci, aligning their online branding requirements with our digital presence, thereby ensuring cohesive brand representation and enhanced customer engagement."
     },
+    
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
+      company: "Vanish Proxies",
+      badges: ["Founder", "Remote"],
+      title: "Owner",
+      logo: "YourLogoVariable", // Replace YourLogoVariable with the actual logo variable name
+      start: "2020",
+      end: "2022",
+      description: "Founded and led Vanish Proxies, overseeing all aspects of frontend and backend development for the e-commerce platform, resulting in a robust product deployment process. Delivered exceptional customer support and managed order inquiries, fostering strong customer relationships. Drove product development strategies, significantly contributing to the company's growth, achieving over 1400 customers and surpassing $120K in sales."
+    }
+    ,
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+      "company": "WPM Design",
+      "link": "https://wpm.design/", // Replace with the actual website link if different
+      "badges": ["Founder", "Hybrid"],
+      "title": "Owner/Manager/Engineer",
+      "logo": "YourLogoVariable", // Replace YourLogoVariable with the actual logo variable name
+      "start": "2020", // Replace YourStartDate with the actual start date
+      "end": "Present", // Or replace with actual end date if applicable
+      "description": "At the helm of WPM Design, a pioneering luxury keyboard and manufacturing brand, I leveraged significant expertise in Fusion360, Visual Studio Code, and diverse 3D printing systems for advanced prototype fabrication using CNC and various materials like ABS, PLA, PETG, and NYLON. Guided a team of 6 engineers across mechanical and software disciplines, driving the design, engineering, and production of CNC and mold-produced products. My work in embedded engineering, including Arduino and microprocessors, has underpinned the technical excellence of our offerings. Additionally, I expanded our business model to include B2B manufacturing, producing thousands of garments monthly for large brand companies, demonstrating versatility and innovative leadership in manufacturing."
+    }
+    ,
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "Java",
+    "Python",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "C++",
+    "Fusion360",
+    "Visual Studio Code",
+    "Adobe Illustrator",
+    "Linux",
+    "Additive Manufacturing",
+    "API Development",
+    "Embedded Systems",
+    "E-commerce",
+    "Stripe"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "BostonDynamics Workshop",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Chapman University",
+        "Python",
+        "Workshop",
+        "Automation",
+        "Git"
       ],
-      description: "A platform to build and grow your online business",
+      description: "A platform built to simplify and teach students how to program a Boston Dynamics SPOT Robot.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com",
+        href: "https://github.com/ChapmanDCILab/SPOT-Workshop",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Hydroponic Scheduling",
+      techStack: ["Side Project", "Python", "Javascript", "Embedded Systems", "Arduino", "Blockly"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Blockly based pseudolanguage which communicates between an interpreting server and an arduino to control and collect sensor data in a modular system.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/cdnmonitor/hydroponic-scheduling",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+      title: "Algorithm Jitsu",
+      techStack: ["Java", "Networking", "AI", "Command Line", "Server-Client Architecture"],
+      description: "A command line implementation of the Club Penguin Card Jitsu game written in Java written for Algorithm Analysis. Inspired by childhood memories of ClubPenguin, this project aims to recreate the game for algorithm testing in a PvP setting. Utilizes network sockets for client-server communication and logs battles for AI training against human players. Features AI with varying difficulty levels.",
+      logo: "AlgorithmJitsuLogo", // Please replace with your actual logo variable or provide more details if needed
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
+        label: "github.com", // Replace with the actual label if different
+        href: "https://github.com/cdnmonitor/algorithm-jitsu", // Replace with the actual repository link
+      }
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+      title: "OnDemand",
+      techStack: ["Web Monitoring", "Notifications", "Web Hooks", "Subscription-Based Service"],
+      description: "A subscription-based tool designed to give consumers and reselling groups an edge by monitoring stock availability on specific websites like BestBuy and GameStop. OnDemand notifies subscribers through web hooks when an item is back in stock, ensuring early access over regular customers. Priced at $5 per month for consumers and $50 per month for reselling groups, it's an essential tool for avid shoppers and resellers aiming to capitalize on high-demand products.",
+      logo: "OnDemandLogo", // Replace with your actual logo variable or provide details for a specific design if needed
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+        label: "Learn More", // Adjust the label as necessary
+        href: "https://your-ondemand-project-link", // Replace with the actual link to your project or landing page
+      }
+    }
+    
   ],
 } as const;
