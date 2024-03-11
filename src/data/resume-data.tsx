@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "Driven Interdisciplinary Engineer with a passion for making modern technology more accessible and user-friendly. Holding a degree in Computer Science, my educational journey didn't stop there; I've delved deep into Mechanical Engineering, applying its principles to product development. My expertise doesn't end with software and mechanics; I bridge these disciplines with Electrical Engineering, allowing for the creation of comprehensive products that seamlessly integrate software, electrical components, and hardware. This multidisciplinary approach enables me to innovate and refine technologies, ensuring they meet the needs of users in an intuitive and efficient manner.",
   avatarUrl: "https://avatars.githubusercontent.com/u/52522568?s=400&u=043c5416d9ebbbd5a769d317a4b97e731a0a6af3&v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://wpm.design",
   contact: {
     email: "monitorthat@gmail.com",
     tel: "+12137137747",
@@ -72,6 +72,17 @@ export const RESUME_DATA = {
         "Led the integration and repair of approximately 50 Prusa MK3 printers into the school's network via Raspberry Pi configuration and authored guides for overcoming eduroam connection challenges; developed a unique Python workshop utilizing a Boston Dynamics robot, enhancing the makerspace's educational offerings. Initiated the restoration of Prusa Multi Material Units, designed and fabricated a filament storage solution, and assumed key responsibility in liaising with Boston Dynamics for hardware issues, demonstrating a blend of technical prowess in software development, 3D printing, and hardware troubleshooting.",
     },
     {
+      "company": "WPM Design",
+      "link": "https://wpm.design/", // Replace with the actual website link if different
+      "badges": ["Founder", "Hybrid"],
+      "title": "Owner/Manager/Engineer",
+      "logo": "YourLogoVariable", // Replace YourLogoVariable with the actual logo variable name
+      "start": "2020", // Replace YourStartDate with the actual start date
+      "end": "Present", // Or replace with actual end date if applicable
+      "description": "At the helm of WPM Design, a pioneering luxury keyboard and manufacturing brand, I leveraged significant expertise in Fusion360, Visual Studio Code, and diverse 3D printing systems for advanced prototype fabrication using CNC and various materials like ABS, PLA, PETG, and NYLON. Guided a team of 6 engineers across mechanical and software disciplines, driving the design, engineering, and production of CNC and mold-produced products. My work in embedded engineering, including Arduino and microprocessors, has underpinned the technical excellence of our offerings. Additionally, I expanded our business model to include B2B manufacturing, producing thousands of garments monthly for large brand companies, demonstrating versatility and innovative leadership in manufacturing."
+    }
+    ,
+    {
       company: "Chong Hing Jewelers",
       link: "https://chonghing.com",
       badges: ["Hybrid", "Remote"],
@@ -90,17 +101,6 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2022",
       description: "Founded and led Vanish Proxies, overseeing all aspects of frontend and backend development for the e-commerce platform, resulting in a robust product deployment process. Delivered exceptional customer support and managed order inquiries, fostering strong customer relationships. Drove product development strategies, significantly contributing to the company's growth, achieving over 1400 customers and surpassing $120K in sales."
-    }
-    ,
-    {
-      "company": "WPM Design",
-      "link": "https://wpm.design/", // Replace with the actual website link if different
-      "badges": ["Founder", "Hybrid"],
-      "title": "Owner/Manager/Engineer",
-      "logo": "YourLogoVariable", // Replace YourLogoVariable with the actual logo variable name
-      "start": "2020", // Replace YourStartDate with the actual start date
-      "end": "Present", // Or replace with actual end date if applicable
-      "description": "At the helm of WPM Design, a pioneering luxury keyboard and manufacturing brand, I leveraged significant expertise in Fusion360, Visual Studio Code, and diverse 3D printing systems for advanced prototype fabrication using CNC and various materials like ABS, PLA, PETG, and NYLON. Guided a team of 6 engineers across mechanical and software disciplines, driving the design, engineering, and production of CNC and mold-produced products. My work in embedded engineering, including Arduino and microprocessors, has underpinned the technical excellence of our offerings. Additionally, I expanded our business model to include B2B manufacturing, producing thousands of garments monthly for large brand companies, demonstrating versatility and innovative leadership in manufacturing."
     }
     ,
   ],
@@ -165,7 +165,6 @@ export const RESUME_DATA = {
       logo: "OnDemandLogo", // Replace with your actual logo variable or provide details for a specific design if needed
       link: {
         label: "Learn More", // Adjust the label as necessary
-        href: "https://your-ondemand-project-link", // Replace with the actual link to your project or landing page
       }
     }
     
